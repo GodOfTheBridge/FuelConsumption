@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activitys.OutputDataActivity">
+
+    <TextView
+        android:id="@+id/tvMileageCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_mileage_car"
+        android:textColor="@color/primary_text_material_light"
+        android:textSize="@dimen/body_text_size" />
+
+    <TextView
+        android:id="@+id/tvFuelConsumptionPer100Km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/top_indent"
+        android:text="@string/tv_fuel_consumption_100"
+        android:textColor="@color/primary_text_material_light"
+        android:textSize="@dimen/body_text_size" />
+
+    <TextView
+        android:id="@+id/tvCostOf1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_cost_of_1"
+        android:textColor="@color/primary_text_material_light"
+        android:textSize="@dimen/body_text_size" />
+
+    <TextView
+        android:id="@+id/tvAverageFuelConsumption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/top_indent"
+        android:text="@string/tv_average_fuel_consumption"
+        android:textColor="@color/primary_text_material_light"
+        android:textSize="@dimen/body_text_size" />
+
+    <TextView
+        android:id="@+id/tvAverageCostOf1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_average_cost_of_1"
+        android:textColor="@color/primary_text_material_light"
+        android:textSize="@dimen/body_text_size" />
+</LinearLayout>

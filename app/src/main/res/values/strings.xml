@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Расход топлива</string>
+
+    <string name="tv_header">Расход топлива</string>
+    <string name="btn_input_data">Ввести данные</string>
+    <string name="btn_output_data">Вывести статистику</string>
+
+    <string name="cb_tank_is_empty">Бак пустой</string>
+    <string name="tv_current_mileage_car">Текущий пробег автомобиля:  </string>
+    <string name="tv_number_of_liters">Количество залитых литров бензина</string>
+    <string name="tv_refill_price">Стоимость заправки(руб)</string>
+    <string name="btn_ok">OK</string>
+    <string name="toast_save">Сохранено</string>
+    <string name="toast_mileage">Текущий пробег должен быть больше предидущего (</string>
+    <string name="toast_fields">Все поля должны быть заполнены</string>
+
+    <string name="tv_mileage_car">Пробег автомобиля:</string>
+    <string name="tv_fuel_consumption_100">Текущий расход топлива на 100км: </string>
+    <string name="tv_cost_of_1">Текущая стоимость 1км: </string>
+    <string name="tv_average_fuel_consumption">Средний расход топлива на 100км: </string>
+    <string name="tv_average_cost_of_1">Средняя стоимость 1км: </string>
+    <string name="toast_two_records_minimum">Необходимо занести минимум две записи</string>
+    <string name="value_distance">км</string>
+    <string name="value_currency">руб</string>
+    <string name="value_capacity">л</string>
+
+
+
+
+</resources>
